@@ -33,6 +33,11 @@ class ViewController: UIViewController ,HttpRequestLoadDataProtocol {
           let info = HttpRequestInfo(url: "http://api.liwushuo.com/v2/banners?channel=iOS", delegate: self)
         
           info.sendRequest()
+        
+        
+        
+//        TestModel.loadFirstData(self)
+//        TestModel.loadSecondData(self)
       
     }
     func requestSuccess(data: AnyObject, operation: NSHTTPURLResponse) {

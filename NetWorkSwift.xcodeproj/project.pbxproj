@@ -13,6 +13,7 @@
 		B75EC56C1BAA513F0049E4AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B75EC56A1BAA513F0049E4AE /* LaunchScreen.storyboard */; };
 		B75EC5741BAA516B0049E4AE /* HttpRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75EC5731BAA516B0049E4AE /* HttpRequestHelper.swift */; settings = {ASSET_TAGS = (); }; };
 		B75EC5761BAA519C0049E4AE /* HttpRequestInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75EC5751BAA519C0049E4AE /* HttpRequestInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		B7ECA9981BABB0C500091BFB /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECA9971BABB0C500091BFB /* TestModel.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B75EC56D1BAA513F0049E4AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B75EC5731BAA516B0049E4AE /* HttpRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestHelper.swift; sourceTree = "<group>"; };
 		B75EC5751BAA519C0049E4AE /* HttpRequestInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestInfo.swift; sourceTree = "<group>"; };
+		B7ECA9971BABB0C500091BFB /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B75EC56D1BAA513F0049E4AE /* Info.plist */,
 				B75EC5731BAA516B0049E4AE /* HttpRequestHelper.swift */,
 				B75EC5751BAA519C0049E4AE /* HttpRequestInfo.swift */,
+				B7ECA9971BABB0C500091BFB /* TestModel.swift */,
 			);
 			path = NetWorkSwift;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				B75EC5641BAA513F0049E4AE /* ViewController.swift in Sources */,
 				B75EC5761BAA519C0049E4AE /* HttpRequestInfo.swift in Sources */,
+				B7ECA9981BABB0C500091BFB /* TestModel.swift in Sources */,
 				B75EC5741BAA516B0049E4AE /* HttpRequestHelper.swift in Sources */,
 				B75EC5621BAA513F0049E4AE /* AppDelegate.swift in Sources */,
 			);
