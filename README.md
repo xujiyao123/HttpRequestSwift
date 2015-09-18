@@ -37,3 +37,38 @@
     func requestFailed(error: NSError?) {
         print(error)
     }
+
+可以从Model模型中拿取数据方便管理
+
+    class func loadFirstData(delegate:HttpRequestLoadDataProtocol) -> Void{
+        
+        let info = HttpRequestInfo(url: "123", delegate: delegate)
+        
+    
+        info.sendRequest()
+        
+        
+    }
+    
+    class func loadSecondData(delegate:HttpRequestLoadDataProtocol) -> Void{
+        
+        let info = HttpRequestInfo(url: "234", delegate: delegate)
+        
+        
+        info.sendRequest()
+        
+        
+    }
+
+调用方法
+
+      TestModel.loadFirstData(self)
+      TestModel.loadSecondData(self)
+
+
+
+
+
+
+
+
